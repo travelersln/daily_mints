@@ -33,7 +33,7 @@ class ReminderButton(Button):
                 channel_id = interaction.channel.id
                 message_id = interaction.message.id
                 add_reminder(interaction.user.id, self.custom_id, event_time, guild_id, channel_id, message_id)
-                await interaction.response.send_message(f"Reminder set for {event_time - timedelta(minutes=1)}.", ephemeral=True)
+                await interaction.response.send_message(f"Reminder set for {event_time - timedelta(minutes=30)}.", ephemeral=True)
 
 class ReminderView(View):
     def __init__(self, event_texts):
