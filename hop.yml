@@ -1,6 +1,3 @@
 version: 1
-config:
-  project_id: project_MjI3OTQwNjQ2MTQ4Njc3Nzc2
-  deployment_id: deployment_MjI3OTY1MTM0NjQyOTEzNDM5
 run:
   command: "python bot.py"
