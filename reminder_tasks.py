@@ -53,7 +53,7 @@ async def reminder_check(bot):
         for reminder in reminders:
             time_difference = (reminder.event_time - current_time).total_seconds()
             logger.debug(f"Checking reminder for user {reminder.user_id}: event time {reminder.event_time}, time difference {time_difference}")
-            if 0 < time_difference <= 120 and reminder.status == 'pending':
+            if 0 < time_difference <= 1800 and reminder.status == 'pending':
                 logger.info(f"Preparing to send a reminder for user {reminder.user_id}")
                 try:
                     user = await bot.fetch_user(reminder.user_id)
