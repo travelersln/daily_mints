@@ -72,7 +72,7 @@ def update_reminder_status(reminder_id, new_status):
     finally:
         session.close()
 
-def delete_past_reminders(current_time):
+def delete_past_reminders(current_time, status):
     session = Session()
     try:
         past_reminders = session.query(Reminder).filter(
@@ -87,3 +87,21 @@ def delete_past_reminders(current_time):
         logger.error(f"An error occurred while deleting past reminders: {e}", exc_info=True)
     finally:
         session.close()
+def delete_notified_reminders():
+    session = Session()
+    try:
+        # Busca todos los recordatorios con estado 'notified'
+        notified_reminders = session.query(Reminder).filter(
+            Reminder.status == 'notified'
+        ).all()
+        for reminder in notified_reminders:
+            # Elimina los recordatorios encontrados
+            session.delete(reminder)
+        session.commit()
+        logger.info("Recordatorios notificados eliminados con éxito.")
+    except SQLAlchemyError as e:
+        session.rollback()
+        logger.error(f"Se produjo un error al eliminar recordatorios notificados: {e}", exc_info=True)
+    finally:
+        session.close()
+        
