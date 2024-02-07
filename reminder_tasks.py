@@ -74,7 +74,7 @@ class ReminderButton(Button):
 
 class ReminderView(View):
     def __init__(self, event_texts):
-        super().__init__()
+        super().__init__(timeout=None)
         current_time = datetime.utcnow()
         for i, event_text in enumerate(event_texts):
             event_time = extract_event_time(event_text)
