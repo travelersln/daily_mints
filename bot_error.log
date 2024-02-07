@@ -1,0 +1,120 @@
+05-Feb-24 20:43:26:DEBUG:asyncio: Using proactor: IocpProactor
+05-Feb-24 20:43:26:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+05-Feb-24 20:43:26:DEBUG:discord.client: on_error has successfully been registered as an event
+05-Feb-24 20:43:26:DEBUG:discord.client: on_command_error has successfully been registered as an event
+05-Feb-24 20:43:26:DEBUG:discord.client: on_disconnect has successfully been registered as an event
+05-Feb-24 20:43:26:DEBUG:discord.client: on_resumed has successfully been registered as an event
+05-Feb-24 20:43:26:DEBUG:discord.client: on_ready has successfully been registered as an event
+05-Feb-24 20:43:26:DEBUG:discord.client: on_ready has successfully been registered as an event
+05-Feb-24 20:43:26:DEBUG:discord.client: on_message has successfully been registered as an event
+05-Feb-24 20:43:26:INFO:discord.client: logging in using static token
+05-Feb-24 20:43:26:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me with None has returned 401
+05-Feb-24 20:43:26:INFO:discord.client: Cleaning up tasks.
+05-Feb-24 20:43:26:INFO:discord.client: Closing the event loop.
+06-Feb-24 20:51:54:DEBUG:asyncio: Using proactor: IocpProactor
+06-Feb-24 20:51:54:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+06-Feb-24 20:51:54:DEBUG:discord.client: on_error has successfully been registered as an event
+06-Feb-24 20:51:54:DEBUG:discord.client: on_command_error has successfully been registered as an event
+06-Feb-24 20:51:54:DEBUG:discord.client: on_disconnect has successfully been registered as an event
+06-Feb-24 20:51:54:DEBUG:discord.client: on_resumed has successfully been registered as an event
+06-Feb-24 20:51:54:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 20:51:54:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 20:51:54:DEBUG:discord.client: on_message has successfully been registered as an event
+06-Feb-24 20:51:54:INFO:discord.client: logging in using static token
+06-Feb-24 20:51:54:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me with None has returned 401
+06-Feb-24 20:51:54:INFO:discord.client: Cleaning up tasks.
+06-Feb-24 20:51:54:INFO:discord.client: Closing the event loop.
+06-Feb-24 20:52:21:DEBUG:asyncio: Using proactor: IocpProactor
+06-Feb-24 20:52:21:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+06-Feb-24 20:52:21:DEBUG:discord.client: on_error has successfully been registered as an event
+06-Feb-24 20:52:21:DEBUG:discord.client: on_command_error has successfully been registered as an event
+06-Feb-24 20:52:21:DEBUG:discord.client: on_disconnect has successfully been registered as an event
+06-Feb-24 20:52:21:DEBUG:discord.client: on_resumed has successfully been registered as an event
+06-Feb-24 20:52:21:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 20:52:21:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 20:52:21:DEBUG:discord.client: on_message has successfully been registered as an event
+06-Feb-24 20:52:21:INFO:discord.client: logging in using static token
+06-Feb-24 20:52:22:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+06-Feb-24 20:52:22:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me has received {'id': '1115435508219260929', 'username': 'travelers', 'avatar': 'bfe375f2331efa31fed4111325c674ba', 'discriminator': '4269', 'public_flags': 0, 'premium_type': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'banner_color': None, 'mfa_enabled': True, 'locale': 'en-US', 'email': None, 'verified': True, 'bio': ''}
+06-Feb-24 20:52:22:DEBUG:discord.http: GET https://discord.com/api/v10/gateway with None has returned 200
+06-Feb-24 20:52:22:DEBUG:discord.http: GET https://discord.com/api/v10/gateway has received {'url': 'wss://gateway.discord.gg'}
+06-Feb-24 20:52:22:DEBUG:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=10&compress=zlib-stream
+06-Feb-24 20:52:22:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-d-9pzp",{"micros":0.0}]']}}
+06-Feb-24 20:52:22:INFO:discord.gateway: Shard ID None has sent the IDENTIFY payload.
+06-Feb-24 20:52:22:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+06-Feb-24 20:52:22:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'travelers', 'mfa_enabled': True, 'id': '1115435508219260929', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '4269', 'bot': True, 'avatar': 'bfe375f2331efa31fed4111325c674ba'}, 'session_type': 'normal', 'session_id': '7e48e00a2f3d5a29fde5c34287fc0e34', 'resume_gateway_url': 'wss://gateway-us-east1-d.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1002317797206020187'}, {'unavailable': True, 'id': '1092249315000471723'}, {'unavailable': True, 'id': '1131727554617823242'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['us-south', 'atlanta', 'us-west', 'us-central', 'santa-clara'], 'current_location': ['MX', 'MX:CMX'], 'auth': {}, 'application': {'id': '1115435508219260929', 'flags': 34119680}, '_trace': ['["gateway-prd-us-east1-d-9pzp",{"micros":92338,"calls":["id_created",{"micros":2080,"calls":[]},"session_lookup_time",{"micros":2497,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-288",{"micros":86333,"calls":["start_session",{"micros":46177,"calls":["discord-api-75cd97c758-z7vr5",{"micros":41394,"calls":["get_user",{"micros":7741},"get_guilds",{"micros":3206},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":1271},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":345,"calls":[]},"guilds_started",{"micros":144,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":39580,"calls":[]},"connect_finished",{"micros":39585,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}]']}}
+06-Feb-24 20:52:22:DEBUG:discord.client: Dispatching event socket_event_type
+06-Feb-24 20:52:22:INFO:discord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-9pzp",{"micros":92338,"calls":["id_created",{"micros":2080,"calls":[]},"session_lookup_time",{"micros":2497,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-2-288",{"micros":86333,"calls":["start_session",{"micros":46177,"calls":["discord-api-75cd97c758-z7vr5",{"micros":41394,"calls":["get_user",{"micros":7741},"get_guilds",{"micros":3206},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":1271},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":345,"calls":[]},"guilds_started",{"micros":144,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":39580,"calls":[]},"connect_finished",{"micros":39585,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 7e48e00a2f3d5a29fde5c34287fc0e34).
+06-Feb-24 20:52:22:DEBUG:discord.client: Dispatching event connect
+06-Feb-24 20:52:22:DEBUG:discord.client: Dispatching event socket_event_type
+06-Feb-24 20:52:22:DEBUG:discord.client: Dispatching event guild_available
+06-Feb-24 20:52:22:DEBUG:discord.http: GET https://discord.com/api/v10/applications/1115435508219260929/commands with None has returned 200
+06-Feb-24 20:52:22:DEBUG:discord.http: GET https://discord.com/api/v10/applications/1115435508219260929/commands has received []
+06-Feb-24 20:52:22:DEBUG:discord.bot: Skipping bulk command update: Commands are up to date
+06-Feb-24 20:52:23:DEBUG:discord.client: Dispatching event socket_event_type
+06-Feb-24 20:52:24:INFO:discord.client: Received signal to terminate bot and event loop.
+06-Feb-24 20:52:24:INFO:discord.client: Cleaning up tasks.
+06-Feb-24 20:52:24:INFO:discord.client: Cleaning up after 2 tasks.
+06-Feb-24 20:52:24:INFO:discord.client: Closing the event loop.
+06-Feb-24 21:35:40:DEBUG:asyncio: Using proactor: IocpProactor
+06-Feb-24 21:35:40:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+06-Feb-24 21:35:40:DEBUG:discord.client: on_error has successfully been registered as an event
+06-Feb-24 21:35:40:DEBUG:discord.client: on_command_error has successfully been registered as an event
+06-Feb-24 21:35:40:DEBUG:discord.client: on_disconnect has successfully been registered as an event
+06-Feb-24 21:35:40:DEBUG:discord.client: on_resumed has successfully been registered as an event
+06-Feb-24 21:35:40:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 21:35:40:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 21:35:40:DEBUG:discord.client: on_message has successfully been registered as an event
+06-Feb-24 21:35:40:INFO:discord.client: logging in using static token
+06-Feb-24 21:35:40:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+06-Feb-24 21:35:40:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me has received {'id': '1115435508219260929', 'username': 'travelers', 'avatar': 'bfe375f2331efa31fed4111325c674ba', 'discriminator': '4269', 'public_flags': 0, 'premium_type': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'banner_color': None, 'mfa_enabled': True, 'locale': 'en-US', 'email': None, 'verified': True, 'bio': ''}
+06-Feb-24 21:35:40:DEBUG:discord.http: GET https://discord.com/api/v10/gateway with None has returned 200
+06-Feb-24 21:35:40:DEBUG:discord.http: GET https://discord.com/api/v10/gateway has received {'url': 'wss://gateway.discord.gg'}
+06-Feb-24 21:35:40:DEBUG:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=10&compress=zlib-stream
+06-Feb-24 21:35:40:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-c-6tvz",{"micros":0.0}]']}}
+06-Feb-24 21:35:40:INFO:discord.gateway: Shard ID None has sent the IDENTIFY payload.
+06-Feb-24 21:35:40:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+06-Feb-24 21:35:40:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'travelers', 'mfa_enabled': True, 'id': '1115435508219260929', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '4269', 'bot': True, 'avatar': 'bfe375f2331efa31fed4111325c674ba'}, 'session_type': 'normal', 'session_id': '77af7687f03c45f7d2de93857c9c21c5', 'resume_gateway_url': 'wss://gateway-us-east1-c.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1002317797206020187'}, {'unavailable': True, 'id': '1092249315000471723'}, {'unavailable': True, 'id': '1131727554617823242'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['us-south', 'atlanta', 'us-west', 'us-central', 'santa-clara'], 'current_location': ['MX', 'MX:CMX'], 'auth': {}, 'application': {'id': '1115435508219260929', 'flags': 34119680}, '_trace': ['["gateway-prd-us-east1-c-6tvz",{"micros":75281,"calls":["id_created",{"micros":1472,"calls":[]},"session_lookup_time",{"micros":4082,"calls":[]},"session_lookup_finished",{"micros":20,"calls":[]},"discord-sessions-prd-2-140",{"micros":68261,"calls":["start_session",{"micros":51182,"calls":["discord-api-768b6d9dfd-vdkzh",{"micros":45215,"calls":["get_user",{"micros":6691},"get_guilds",{"micros":6474},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":319,"calls":[]},"guilds_started",{"micros":133,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16538,"calls":[]},"connect_finished",{"micros":16544,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}]']}}
+06-Feb-24 21:35:40:DEBUG:discord.client: Dispatching event socket_event_type
+06-Feb-24 21:35:40:INFO:discord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-6tvz",{"micros":75281,"calls":["id_created",{"micros":1472,"calls":[]},"session_lookup_time",{"micros":4082,"calls":[]},"session_lookup_finished",{"micros":20,"calls":[]},"discord-sessions-prd-2-140",{"micros":68261,"calls":["start_session",{"micros":51182,"calls":["discord-api-768b6d9dfd-vdkzh",{"micros":45215,"calls":["get_user",{"micros":6691},"get_guilds",{"micros":6474},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":319,"calls":[]},"guilds_started",{"micros":133,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":16538,"calls":[]},"connect_finished",{"micros":16544,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 77af7687f03c45f7d2de93857c9c21c5).
+06-Feb-24 21:35:40:DEBUG:discord.client: Dispatching event connect
+06-Feb-24 21:35:40:DEBUG:discord.client: Dispatching event socket_event_type
+06-Feb-24 21:35:40:DEBUG:discord.client: Dispatching event guild_available
+06-Feb-24 21:35:42:DEBUG:discord.http: GET https://discord.com/api/v10/applications/1115435508219260929/commands with None has returned 200
+06-Feb-24 21:35:42:DEBUG:discord.http: GET https://discord.com/api/v10/applications/1115435508219260929/commands has received []
+06-Feb-24 21:35:42:DEBUG:discord.bot: Skipping bulk command update: Commands are up to date
+06-Feb-24 21:35:42:INFO:discord.client: Received signal to terminate bot and event loop.
+06-Feb-24 21:35:42:INFO:discord.client: Cleaning up tasks.
+06-Feb-24 21:35:42:INFO:discord.client: Cleaning up after 2 tasks.
+06-Feb-24 21:35:42:INFO:discord.client: Closing the event loop.
+06-Feb-24 21:36:13:DEBUG:asyncio: Using proactor: IocpProactor
+06-Feb-24 21:36:13:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+06-Feb-24 21:36:13:DEBUG:discord.client: on_error has successfully been registered as an event
+06-Feb-24 21:36:13:DEBUG:discord.client: on_command_error has successfully been registered as an event
+06-Feb-24 21:36:13:DEBUG:discord.client: on_disconnect has successfully been registered as an event
+06-Feb-24 21:36:13:DEBUG:discord.client: on_resumed has successfully been registered as an event
+06-Feb-24 21:36:13:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 21:36:13:DEBUG:discord.client: on_ready has successfully been registered as an event
+06-Feb-24 21:36:13:DEBUG:discord.client: on_message has successfully been registered as an event
+06-Feb-24 21:36:13:INFO:discord.client: logging in using static token
+06-Feb-24 21:36:13:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+06-Feb-24 21:36:13:DEBUG:discord.http: GET https://discord.com/api/v10/users/@me has received {'id': '1115435508219260929', 'username': 'travelers', 'avatar': 'bfe375f2331efa31fed4111325c674ba', 'discriminator': '4269', 'public_flags': 0, 'premium_type': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'banner_color': None, 'mfa_enabled': True, 'locale': 'en-US', 'email': None, 'verified': True, 'bio': ''}
+06-Feb-24 21:36:13:DEBUG:discord.http: GET https://discord.com/api/v10/gateway with None has returned 200
+06-Feb-24 21:36:13:DEBUG:discord.http: GET https://discord.com/api/v10/gateway has received {'url': 'wss://gateway.discord.gg'}
+06-Feb-24 21:36:13:DEBUG:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=10&compress=zlib-stream
+06-Feb-24 21:36:13:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-us-east1-c-405j",{"micros":0.0}]']}}
+06-Feb-24 21:36:13:INFO:discord.gateway: Shard ID None has sent the IDENTIFY payload.
+06-Feb-24 21:36:14:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+06-Feb-24 21:36:14:DEBUG:discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'travelers', 'mfa_enabled': True, 'id': '1115435508219260929', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '4269', 'bot': True, 'avatar': 'bfe375f2331efa31fed4111325c674ba'}, 'session_type': 'normal', 'session_id': 'c6567af572280ce5099041e09b81ad62', 'resume_gateway_url': 'wss://gateway-us-east1-c.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1002317797206020187'}, {'unavailable': True, 'id': '1092249315000471723'}, {'unavailable': True, 'id': '1131727554617823242'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['us-south', 'atlanta', 'us-west', 'us-central', 'santa-clara'], 'current_location': ['MX', 'MX:CMX'], 'auth': {}, 'application': {'id': '1115435508219260929', 'flags': 34119680}, '_trace': ['["gateway-prd-us-east1-c-405j",{"micros":306146,"calls":["id_created",{"micros":1252,"calls":[]},"session_lookup_time",{"micros":3791,"calls":[]},"session_lookup_finished",{"micros":36,"calls":[]},"discord-sessions-prd-2-101",{"micros":300557,"calls":["start_session",{"micros":232504,"calls":["discord-api-768b6d9dfd-tvnjx",{"micros":215341,"calls":["get_user",{"micros":27727},"get_guilds",{"micros":38130},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":22600,"calls":[]},"guilds_started",{"micros":168,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":45190,"calls":[]},"connect_finished",{"micros":45195,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}]']}}
+06-Feb-24 21:36:14:DEBUG:discord.client: Dispatching event socket_event_type
+06-Feb-24 21:36:14:INFO:discord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-405j",{"micros":306146,"calls":["id_created",{"micros":1252,"calls":[]},"session_lookup_time",{"micros":3791,"calls":[]},"session_lookup_finished",{"micros":36,"calls":[]},"discord-sessions-prd-2-101",{"micros":300557,"calls":["start_session",{"micros":232504,"calls":["discord-api-768b6d9dfd-tvnjx",{"micros":215341,"calls":["get_user",{"micros":27727},"get_guilds",{"micros":38130},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":22600,"calls":[]},"guilds_started",{"micros":168,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":45190,"calls":[]},"connect_finished",{"micros":45195,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: c6567af572280ce5099041e09b81ad62).
+06-Feb-24 21:36:14:DEBUG:discord.client: Dispatching event connect
+06-Feb-24 21:36:14:DEBUG:discord.client: Dispatching event socket_event_type
+06-Feb-24 21:36:14:DEBUG:discord.client: Dispatching event guild_available
+06-Feb-24 21:36:14:DEBUG:discord.http: GET https://discord.com/api/v10/applications/1115435508219260929/commands with None has returned 200
+06-Feb-24 21:36:14:DEBUG:discord.http: GET https://discord.com/api/v10/applications/1115435508219260929/commands has received []
+06-Feb-24 21:36:14:DEBUG:discord.bot: Skipping bulk command update: Commands are up to date
+06-Feb-24 21:36:15:INFO:discord.client: Received signal to terminate bot and event loop.
+06-Feb-24 21:36:15:INFO:discord.client: Cleaning up tasks.
+06-Feb-24 21:36:15:INFO:discord.client: Cleaning up after 2 tasks.
+06-Feb-24 21:36:15:INFO:discord.client: Closing the event loop.
