@@ -6,6 +6,17 @@ import re
 from reminder_tasks import setup_tasks, ReminderView
 import logging
 
+# Configuración del logging
+logging.basicConfig(level=logging.DEBUG,  # Cambia a INFO en producción
+                    format='%(asctime)s:%(levelname)s:%(name)s: %(message)s',
+                    datefmt='%d-%b-%y %H:%M:%S',
+                    filename='bot_error.log',  # Archivo de logs
+                    filemode='a')
+
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)  # Cambia a INFO en producción
+console_handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
+logging.getLogger('').addHandler(console_handler)
 
 # Obtén el logger específico para el cliente de Discord
 logger = logging.getLogger('discord.client')
